@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    color: #222121;
+    background: #4c4d74d2;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 24px;
+    font-size: 1.7rem;
+}
+
+section {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #696262;
+}
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 1.2rem;
+}
+
+.field {
+    margin-bottom: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input,
+button {
+    width: 100%;
+    min-height: 38px;
+    padding: 8px;
+    color: #000;
+    background: #a09fa5;
+    border: 1px solid #000;
+    border-radius: 0;
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px 6px;
+    border: 1px solid #000;
+}
+
+.empty-state {
+    text-align: center;
+}
+
+.d-none {
+    display: none;
+}
+
+#message {
+    margin-top: 12px;
+}
+
+#message .alert {
+    padding: 8px 0;
+    border-bottom: 1px solid #000;
+}
+
+@media (max-width: 520px) {
+    body {
+        padding: 16px;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+
+    th,
+    td {
+        padding: 7px 4px;
+    }
+}
